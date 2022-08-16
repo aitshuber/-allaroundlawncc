@@ -7,7 +7,7 @@
  */
 
 :root {
-    --bs-blue: #4726e1;
+    --bs-blue: #10375b;
     --bs-indigo: #6610f2;
     --bs-purple: #300d81;
     --bs-pink: #d63384;
@@ -22,7 +22,7 @@
     --bs-gray-dark: #555;
     --bs-black: #000;
     --bs-border-color: #ddd;
-    --bs-primary: #4726e1;
+    --bs-primary: #10375b;
     --bs-secondary: #555;
     --bs-success: #10375b;
     --bs-info: #0dcaf0;
@@ -171,7 +171,7 @@ sup {
     top: -.5em
 }
 a {
-    color: #4726e1;
+    color: #10375b;
     text-decoration: none
 }
 a:hover {
@@ -1957,9 +1957,9 @@ progress {
 .form-control:focus {
     color: #000;
     background-color: #fff;
-    border-color: #a393f0;
+    border-color: rgba(16, 55, 91, 0.361);
     outline: 0;
-    box-shadow: 0 0 0 .25rem rgba(71, 38, 225, 0.25)
+    box-shadow: 0 0 0 .25rem rgba(16, 55, 91, 0.361)
 }
 .form-control::-webkit-date-and-time-value {
     height: 1.5em
@@ -2162,7 +2162,7 @@ textarea.form-control-lg {
     }
 }
 .form-select:focus {
-    border-color: #a393f0;
+    border-color: 10375B;
     outline: 0;
     box-shadow: none
 }
@@ -2228,13 +2228,13 @@ textarea.form-control-lg {
     filter: brightness(90%)
 }
 .form-check-input:focus {
-    border-color: #a393f0;
+    border-color: 10375B;
     outline: 0;
     box-shadow: 0 0 0 .25rem rgba(71, 38, 225, 0.25)
 }
 .form-check-input:checked {
-    background-color: #4726e1;
-    border-color: #4726e1
+    background-color: #10375b;
+    border-color: #10375b
 }
 .form-check-input:checked[type="checkbox"] {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='miter' stroke-linejoin='miter' stroke-width='2' d='M6 10l3 3l6-6'/%3e%3c/svg%3e")
@@ -2243,8 +2243,8 @@ textarea.form-control-lg {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-5 -5 10 10'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e")
 }
 .form-check-input[type="checkbox"]:indeterminate {
-    background-color: #4726e1;
-    border-color: #4726e1;
+    background-color: #10375b;
+    border-color: #10375b;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e")
 }
 .form-check-input:disabled {
@@ -2316,7 +2316,7 @@ textarea.form-control-lg {
     width: 1rem;
     height: 1rem;
     margin-top: -.25rem;
-    background-color: #4726e1;
+    background-color: #10375b;
     border: 0;
     -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2343,7 +2343,7 @@ textarea.form-control-lg {
 .form-range::-moz-range-thumb {
     width: 1rem;
     height: 1rem;
-    background-color: #4726e1;
+    background-color: #10375b;
     border: 0;
     -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2678,8 +2678,8 @@ textarea.form-control-lg {
 }
 .btn-primary {
     color: #fff;
-    background-color: #4726e1;
-    border-color: #4726e1
+    background-color: #10375b;
+    border-color: #10375b
 }
 .btn-primary:hover {
     color: #fff;
@@ -2702,8 +2702,8 @@ textarea.form-control-lg {
 }
 .btn-primary:disabled, .btn-primary.disabled {
     color: #fff;
-    background-color: #4726e1;
-    border-color: #4726e1
+    background-color: #10375b;
+    border-color: #10375b
 }
 .btn-secondary {
     color: #fff;
@@ -2909,27 +2909,27 @@ textarea.form-control-lg {
     border-color: #222
 }
 .btn-outline-primary {
-    color: #4726e1;
-    border-color: #4726e1
+    color: #10375b;
+    border-color: #10375b
 }
 .btn-outline-primary:hover {
     color: #fff;
-    background-color: #4726e1;
-    border-color: #4726e1
+    background-color: #10375b;
+    border-color: #10375b
 }
 .btn-check:focus+.btn-outline-primary, .btn-outline-primary:focus {
     box-shadow: 0 0 0 0 rgba(71, 38, 225, 0.5)
 }
 .btn-check:checked+.btn-outline-primary, .btn-check:active+.btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
     color: #fff;
-    background-color: #4726e1;
-    border-color: #4726e1
+    background-color: #10375b;
+    border-color: #10375b
 }
 .btn-check:checked+.btn-outline-primary:focus, .btn-check:active+.btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
     box-shadow: 0 0 0 0 rgba(71, 38, 225, 0.5)
 }
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
-    color: #4726e1;
+    color: #10375b;
     background-color: transparent
 }
 .btn-outline-secondary {
@@ -3102,7 +3102,7 @@ textarea.form-control-lg {
 }
 .btn-link {
     font-weight: 400;
-    color: #4726e1;
+    color: #10375b;
     text-decoration: none
 }
 .btn-link:hover {
@@ -3376,7 +3376,7 @@ textarea.form-control-lg {
 .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #4726e1
+    background-color: #10375b
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
     color: #adb5bd;
@@ -3413,7 +3413,7 @@ textarea.form-control-lg {
 }
 .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
     color: #fff;
-    background-color: #4726e1
+    background-color: #10375b
 }
 .dropdown-menu-dark .dropdown-item.disabled, .dropdown-menu-dark .dropdown-item:disabled {
     color: #adb5bd
@@ -3489,7 +3489,7 @@ textarea.form-control-lg {
 .nav-link {
     display: block;
     padding: .5rem 1rem;
-    color: #4726e1;
+    color: #10375b;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out
 }
 @media (prefers-reduced-motion: reduce) {
@@ -3536,7 +3536,7 @@ textarea.form-control-lg {
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #4726e1
+    background-color: #10375b
 }
 .nav-fill>.nav-link, .nav-fill .nav-item {
     flex: 1 1 auto;
@@ -4000,7 +4000,7 @@ textarea.form-control-lg {
 }
 .accordion-button:focus {
     z-index: 3;
-    border-color: #a393f0;
+    border-color: 10375B;
     outline: 0;
     box-shadow: 0 0 0 .25rem rgba(71, 38, 225, 0.25)
 }
@@ -4057,7 +4057,7 @@ textarea.form-control-lg {
 .page-link {
     position: relative;
     display: block;
-    color: #4726e1;
+    color: #10375b;
     background-color: rgba(0, 0, 0, 0);
     border: 0 solid #bbb;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
@@ -4086,8 +4086,8 @@ textarea.form-control-lg {
 .page-item.active .page-link {
     z-index: 3;
     color: #fff;
-    background-color: #4726e1;
-    border-color: #4726e1
+    background-color: #10375b;
+    border-color: #10375b
 }
 .page-item.disabled .page-link {
     color: #999;
@@ -4149,7 +4149,7 @@ textarea.form-control-lg {
 .alert-primary {
     color: #2b1787;
     background-color: #dad4f9;
-    border-color: #4726e1
+    border-color: #10375b
 }
 .alert-primary .alert-link {
     color: #22126c
@@ -4235,7 +4235,7 @@ textarea.form-control-lg {
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    background-color: #4726e1;
+    background-color: #10375b;
     transition: width 0.6s ease
 }
 @media (prefers-reduced-motion: reduce) {
@@ -4302,8 +4302,8 @@ textarea.form-control-lg {
 .list-group-item.active {
     z-index: 2;
     color: #fff;
-    background-color: #4726e1;
-    border-color: #4726e1
+    background-color: #10375b;
+    border-color: #10375b
 }
 .list-group-item+.list-group-item {
     border-top-width: 0
@@ -5334,7 +5334,7 @@ textarea.form-control-lg {
     content: ""
 }
 .link-primary {
-    color: #4726e1
+    color: #10375b
 }
 .link-primary:hover, .link-primary:focus {
     color: #391eb4
@@ -5780,7 +5780,7 @@ textarea.form-control-lg {
     border-left: 0 !important
 }
 .border-primary {
-    border-color: #4726e1 !important
+    border-color: #10375b !important
 }
 .border-secondary {
     border-color: #555 !important
@@ -6834,7 +6834,7 @@ textarea.form-control-lg {
     color: inherit !important
 }
 .text-blue {
-    color: #4726e1 !important
+    color: #10375b !important
 }
 .text-indigo {
     color: #6610f2 !important
@@ -6873,7 +6873,7 @@ textarea.form-control-lg {
     color: #000 !important
 }
 .bg-primary {
-    background-color: #4726e1 !important
+    background-color: #10375b !important
 }
 .bg-secondary {
     background-color: #1a5e1a !important
@@ -6906,7 +6906,7 @@ textarea.form-control-lg {
     background-color: rgba(0, 0, 0, 0) !important
 }
 .bg-blue {
-    background-color: #4726e1 !important
+    background-color: #10375b !important
 }
 .bg-indigo {
     background-color: #6610f2 !important
@@ -7116,10 +7116,10 @@ textarea.form-control-lg {
     color: #222 !important
 }
 .text-blue {
-    color: #4726e1 !important
+    color: #10375b !important
 }
 .text-blue-hover:hover {
-    color: #4726e1 !important
+    color: #10375b !important
 }
 .text-indigo {
     color: #6610f2 !important
@@ -7206,10 +7206,10 @@ textarea.form-control-lg {
     color: #ddd !important
 }
 .bg-primary {
-    background-color: #4726e1 !important
+    background-color: #10375b !important
 }
 .bg-primary-hover:hover {
-    background-color: #4726e1 !important
+    background-color: #10375b !important
 }
 .bg-secondary {
     background-color: #1a5e1a !important
@@ -7254,10 +7254,10 @@ textarea.form-control-lg {
     background-color: #222 !important
 }
 .bg-blue {
-    background-color: #4726e1 !important
+    background-color: #10375b !important
 }
 .bg-blue-hover:hover {
-    background-color: #4726e1 !important
+    background-color: #10375b !important
 }
 .bg-indigo {
     background-color: #6610f2 !important
@@ -12863,7 +12863,7 @@ hr.or::before {
 }
 .inverted .progress .progress-bar {
     background: #fff;
-    color: #4726e1;
+    color: #10375b;
     font-weight: 500
 }
 .inverted .form-floating .form-control, .inverted .form-floating .form-select {
@@ -13054,7 +13054,7 @@ hr.or::before {
     color: #000
 }
 .dropdown-menu .dropdown-item.active {
-    color: #4726e1;
+    color: #10375b;
     background: transparent
 }
 .dropdown-menu .dropdown-item.active:hover, .dropdown-menu .dropdown-item.active:active {
@@ -13222,7 +13222,7 @@ hr.or::before {
     opacity: 0
 }
 .form-check-minimal .form-check-label:hover {
-    color: #4726e1
+    color: #10375b
 }
 .form-check-color {
     padding: 0
@@ -13265,7 +13265,7 @@ hr.or::before {
     opacity: 0
 }
 .form-check-color .form-check-label:hover {
-    color: #4726e1
+    color: #10375b
 }
 .form-check-color .form-check-label span {
     display: inline-flex;
@@ -13411,10 +13411,10 @@ hr.or::before {
     transform: rotate(180deg)
 }
 .nav-minimal .nav-link[class*="active"] {
-    color: #4726e1 !important
+    color: #10375b !important
 }
 .nav-minimal .nav-link:hover {
-    color: #4726e1 !important
+    color: #10375b !important
 }
 .nav-minimal .nav-minimal {
     margin-top: .5rem;
@@ -13473,7 +13473,7 @@ hr.or::before {
     right: 0
 }
 .carousel[class*="-big-controls"] .tns-controls button:hover {
-    background: #4726e1
+    background: #10375b
 }
 .carousel[class*="-big-controls"] .tns-controls button:active {
     background: #361aba
@@ -14045,7 +14045,7 @@ figure {
     mask-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(rgba(0, 0, 0, 0.4)))
 }
 .card-hover-gradient:hover {
-    background-color: #4726e1
+    background-color: #10375b
 }
 .card-hover-rise:hover {
     transform: translateY(-8px);
@@ -14313,8 +14313,8 @@ figure {
 }
 .btn-blue {
     color: #fff;
-    background-color: #4726e1;
-    border-color: #4726e1
+    background-color: #10375b;
+    border-color: #10375b
 }
 .btn-blue:hover {
     color: #fff;
@@ -14337,8 +14337,8 @@ figure {
 }
 .btn-blue:disabled, .btn-blue.disabled {
     color: #fff;
-    background-color: #4726e1;
-    border-color: #4726e1
+    background-color: #10375b;
+    border-color: #10375b
 }
 .btn-indigo {
     color: #fff;
@@ -14747,27 +14747,27 @@ figure {
     border-color: #ddd
 }
 .btn-outline-blue {
-    color: #4726e1;
-    border-color: #4726e1
+    color: #10375b;
+    border-color: #10375b
 }
 .btn-outline-blue:hover {
     color: #fff;
-    background-color: #4726e1;
-    border-color: #4726e1
+    background-color: #10375b;
+    border-color: #10375b
 }
 .btn-check:focus+.btn-outline-blue, .btn-outline-blue:focus {
     box-shadow: 0 0 0 0 rgba(71, 38, 225, 0.5)
 }
 .btn-check:checked+.btn-outline-blue, .btn-check:active+.btn-outline-blue, .btn-outline-blue:active, .btn-outline-blue.active, .btn-outline-blue.dropdown-toggle.show {
     color: #fff;
-    background-color: #4726e1;
-    border-color: #4726e1
+    background-color: #10375b;
+    border-color: #10375b
 }
 .btn-check:checked+.btn-outline-blue:focus, .btn-check:active+.btn-outline-blue:focus, .btn-outline-blue:active:focus, .btn-outline-blue.active:focus, .btn-outline-blue.dropdown-toggle.show:focus {
     box-shadow: 0 0 0 0 rgba(71, 38, 225, 0.5)
 }
 .btn-outline-blue:disabled, .btn-outline-blue.disabled {
-    color: #4726e1;
+    color: #10375b;
     background-color: transparent
 }
 .btn-outline-indigo {
@@ -15279,7 +15279,7 @@ div.code-toolbar>.toolbar button {
     border: 0
 }
 div.code-toolbar>.toolbar button:hover {
-    background: #4726e1;
+    background: #10375b;
     color: #fff
 }
 kbd {
@@ -15571,7 +15571,7 @@ kbd {
     margin: 0
 }
 .counter .counter-value:focus, .counter .counter-value:hover {
-    color: #4726e1
+    color: #10375b
 }
 .counter .counter-minus, .counter .counter-plus {
     transition: all 0.1s;
@@ -15585,7 +15585,7 @@ kbd {
     color: #000
 }
 .counter .counter-minus:active, .counter .counter-plus:active {
-    color: #4726e1
+    color: #10375b
 }
 .sticky-top {
     transition: top 0.2s
@@ -15643,7 +15643,7 @@ kbd {
     color: #000
 }
 .file-structure a:hover, .file-structure span.folder:hover {
-    color: #4726e1
+    color: #10375b
 }
 .file-structure a[aria-expanded="true"]::before, .file-structure span.folder[aria-expanded="true"]::before {
     content: "\f3d2"
@@ -15704,7 +15704,7 @@ kbd {
     border-radius: 50%
 }
 .noUi-horizontal .noUi-handle:hover::before {
-    background: #4726e1
+    background: #10375b
 }
 .noUi-horizontal .noUi-handle::after {
     display: none
