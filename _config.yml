@@ -85,4 +85,4 @@ plugins:
   #   - vendor/cache/
   #   - vendor/gems/
   #   - vendor/ruby/
-  #   - site
+  #   - _site
