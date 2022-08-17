@@ -1,34 +1,22 @@
-<footer class="py-15 py-xl-20 border-top">
+<footer class="py-15 py-xl-20 border-top bg-primary">
 	<div class="container">
 	  <div class="row g-4 g-lg-5 mb-10">
 		<div class="col-md-3 text-center text-md-start">
 		  <a href="{{ site.baseurl }}" class="navbar-brand"><img src="{{ site.baseurl }}/{{ site.data.company_details.logo_image }}" alt="Logo"></a>
 		</div>
-		<div class="col-md-4 col-lg-5 text-center text-md-start">
-		  <ul class="list-unstyled">
-			<li class="mb-1"><a href="" class="text-reset text-primary-hover">documentation</a></li>
-			<li class="mb-1"><a href="" class="text-reset text-primary-hover">components</a></li>
-			<li class="mb-1"><a href="" class="text-reset text-primary-hover">blocks</a></li>
-			<li class="mb-1"><a href="" class="text-reset text-primary-hover">changelog</a></li>
-			<li><a href="" class="text-reset text-primary-hover">roadmap</a></li>
-		  </ul>
+		<div class="col-md-4 col-lg-5 text-center text-md-start text-white">
+		  <p><span class="fw-bold">Phone:</span> 337-332-5298</p>
+		  <p><span class="fw-bold">Email:</span> James@allaroundlawnservice.com</p>
 		</div>
-		<div class="col-md-5 col-lg-4">
-		  <div class="grouped-inputs border p-1 rounded-pill">
-			<div class="row">
-			  <div class="col">
-				<input type="text" class="form-control rounded-pill px-3" aria-label="Text input"
-				  placeholder="Your email">
-			  </div>
-			  <div class="col-auto">
-				<a href="" class="btn btn-green btn-icon rounded-circle"><i class="bi bi-arrow-return-left"></i></a>
-			  </div>
-			</div>
-		  </div>
+		<div class="col-md-5 col-lg-4 text-center text-md-start text-white">
+		<p><span class="fw-bold"> Hours of Operation</span></p>
+		<p> Monday – Friday: 7:00 AM – 5:00 PM</p>
+		<p>Saturday: Closed</p>
+		<p>Sunday: Closed</p>
 		</div>
 	  </div>
 	  <div class="row align-items-center g-1 g-lg-6 text-muted">
-		<div class="col-md-6 col-lg-5 order-lg-2 text-center text-md-start">
+		<div class="col-md-6 col-lg-5 order-lg-2 text-center text-md-start text-white">
 		  <ul class="list-inline small">
 			 {% for item in site.data.company_details.social %}
 			<li class="list-inline-item"><a href="{{item.link}}" class="text-reset text-primary-hover">Follow us on <i class="fa {{item.icon}}" title="{{item.name}}"/></i></a></li>
@@ -36,10 +24,10 @@
 			
 		  </ul>
 		</div>
-		<div class="col-md-6 col-lg-4 text-center text-md-end order-lg-3">
+		<div class="col-md-6 col-lg-4 text-center text-md-start order-lg-3 text-white">
 		  <span class="small">PO Box 605. Saint Martinville, La 70582</span>
 		</div>
-		<div class="col-lg-3 order-lg-1 text-center text-md-start">
+		<div class="col-lg-3 order-lg-1 text-center text-md-start text-white">
 		  <p class="small">Copyrights © {{ site.time | date: "%Y" }}</p>
 		</div>
 	  </div>

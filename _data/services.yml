@@ -1,0 +1,18 @@
+- name: Mowing
+  description: "We use commercial grade mowers designed to give your yard a professional cut."
+  image: /assets/images/small-4.jpg
+- name: Weed Trimming
+  description: "We use commercial grade weed trimmers to provide the finishing touches to your yard."
+  image: /assets/images/small-4.jpg
+- name: Edging And Blowing
+  description: "We use commercial edgers to create the fine lines you desire, and our commercial blowers are used to provide a quick and precise clean up."
+  image: /assets/images/small-4.jpg
+- name: Pesticide Maintenance Of Weeds And Bugs
+  description: "All Around Lawn Service Inc. is licensed by the Louisiana Department of Agriculture & Forestry as a Commercial Pesticide Applicator."
+  image: /assets/images/small-4.jpg
+- name: Flower Bed Maintenance
+  description: "We will keep your flower beds maintained and well groomed."
+  image: /assets/images/small-4.jpg
+- name: Washing Houses And Buildings
+  description: "We provide washing of residential and commercial, one story buildings."
+  image: /assets/images/small-4.jpg

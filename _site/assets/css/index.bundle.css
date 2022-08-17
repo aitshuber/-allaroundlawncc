@@ -175,7 +175,7 @@ a {
     text-decoration: none
 }
 a:hover {
-    color: #391eb4
+    color: #10375b
 }
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
     color: inherit;
@@ -2684,17 +2684,17 @@ textarea.form-control-lg {
 .btn-primary:hover {
     color: #fff;
     background-color: #3c20bf;
-    border-color: #391eb4
+    border-color: #10375b
 }
 .btn-check:focus+.btn-primary, .btn-primary:focus {
     color: #fff;
     background-color: #3c20bf;
-    border-color: #391eb4;
+    border-color: #10375b;
     box-shadow: 0 0 0 0 rgba(99, 71, 230, 0.5)
 }
 .btn-check:checked+.btn-primary, .btn-check:active+.btn-primary, .btn-primary:active, .btn-primary.active, .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #391eb4;
+    background-color: #10375b;
     border-color: #351da9
 }
 .btn-check:checked+.btn-primary:focus, .btn-check:active+.btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show>.btn-primary.dropdown-toggle:focus {
@@ -3106,7 +3106,7 @@ textarea.form-control-lg {
     text-decoration: none
 }
 .btn-link:hover {
-    color: #391eb4
+    color: #10375b
 }
 .btn-link:disabled, .btn-link.disabled {
     color: #999
@@ -3498,7 +3498,7 @@ textarea.form-control-lg {
     }
 }
 .nav-link:hover, .nav-link:focus {
-    color: #391eb4
+    color: #10375b
 }
 .nav-link.disabled {
     color: #999;
@@ -4069,13 +4069,13 @@ textarea.form-control-lg {
 }
 .page-link:hover {
     z-index: 2;
-    color: #391eb4;
+    color: #10375b;
     background-color: #ddd;
     border-color: #bbb
 }
 .page-link:focus {
     z-index: 3;
-    color: #391eb4;
+    color: #10375b;
     background-color: #ddd;
     outline: 0;
     box-shadow: 0 0 0 .25rem rgba(71, 38, 225, 0.25)
@@ -5337,7 +5337,7 @@ textarea.form-control-lg {
     color: #10375b
 }
 .link-primary:hover, .link-primary:focus {
-    color: #391eb4
+    color: #10375b
 }
 .link-secondary {
     color: #555
@@ -14188,7 +14188,7 @@ figure {
     align-items: center;
     justify-content: center;
     margin-top: -2rem;
-    background: #000;
+    background: #10375b;
     color: #fff;
     font-size: 1.125rem;
     border-radius: 50%;
@@ -14319,17 +14319,17 @@ figure {
 .btn-blue:hover {
     color: #fff;
     background-color: #3c20bf;
-    border-color: #391eb4
+    border-color: #10375b
 }
 .btn-check:focus+.btn-blue, .btn-blue:focus {
     color: #fff;
     background-color: #3c20bf;
-    border-color: #391eb4;
+    border-color: #10375b;
     box-shadow: 0 0 0 0 rgba(99, 71, 230, 0.5)
 }
 .btn-check:checked+.btn-blue, .btn-check:active+.btn-blue, .btn-blue:active, .btn-blue.active, .show>.btn-blue.dropdown-toggle {
     color: #fff;
-    background-color: #391eb4;
+    background-color: #10375b;
     border-color: #351da9
 }
 .btn-check:checked+.btn-blue:focus, .btn-check:active+.btn-blue:focus, .btn-blue:active:focus, .btn-blue.active:focus, .show>.btn-blue.dropdown-toggle:focus {
