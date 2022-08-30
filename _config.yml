@@ -6,7 +6,7 @@ relative_permalinks: false
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-5620270-51
+google_analytics: 
 
 defaults:
 -
