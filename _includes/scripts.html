@@ -2,7 +2,7 @@
   <script src="{{ site.baseurl }}/assets/js/vendor.bundle.js"></script>
   <script src="{{ site.baseurl }}/assets/js/index.bundle.js"></script>
   <script src="https://kit.fontawesome.com/cbdc1f9d27.js" crossorigin="anonymous"></script>
-  <script src="https://www.google.com/recaptcha/api.js?render=SITE_ID"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render={{ page.id }}"></script>
 <script>
   var submitted = false;
   var tokenCreated = false;
@@ -23,7 +23,7 @@
         grecaptcha.ready(function() {
           // do request for recaptcha token
           // response is promise with passed token
-          grecaptcha.execute('SITE_ID', {action: 'create_comment'}).then(function (token) {
+          grecaptcha.execute('{{ page.id }}', {action: 'create_comment'}).then(function (token) {
             // add token to form
             var input = document.createElement("input");
             input.type = "hidden";
