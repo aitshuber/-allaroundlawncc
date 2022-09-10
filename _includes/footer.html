@@ -2,11 +2,13 @@
 	<div class="container">
 	  <div class="row g-4 g-lg-5 mb-10">
 		<div class="col-md-3 text-center text-md-start">
-		  <a href="{{ site.baseurl }}" class="navbar-brand"><img src="{{ site.data.company_details.logo_image }}" alt="All Around Lawn Services Logo"></a>
+		  <a href="{{ site.baseurl }}" class="navbar-brand"><img src="{{ site.data.company_details.logo_image }}" alt="All Around Lawn Services Logo" /></a>
 		</div>
 		<div class="col-md-4 col-lg-5 text-center text-md-start text-white editable">
 		  <p><span class="fw-bold">Phone:</span> 337-332-5298</p>
-		  <p><span class="fw-bold">Email:</span><a href="mailto:{{ site.data.company_details.email }}" style="color:white"> {{ site.data.company_details.email }}</a></p>
+		  <p><span class="fw-bold">Email: james@allaroundlawnservice.com</span><a style="color:white" href="mailto:{C}{{ site.data.company_details.email }}">
+		      {{ site.data.company_details.email }}
+		    </a></p>
 		</div>
 		<div class="col-md-5 col-lg-4 text-center text-md-start text-white editable">
 		<p><span class="fw-bold"> Hours of Operation</span></p>
@@ -19,7 +21,7 @@
 		<div class="col-md-6 col-lg-5 order-lg-2 text-center text-md-start text-white">
 		  <ul class="list-inline small">
 			 {% for item in site.data.company_details.social %}
-			<li class="list-inline-item"><a href="{{item.link}}" class="text-reset text-primary-hover">Follow us on <i class="fa {{item.icon}}" title="{{item.name}}"/></i></a></li>
+			<li class="list-inline-item"><a href="{{item.link}}" class="text-reset text-primary-hover">Follow us on <i class="fa {{item.icon}}" title="{{item.name}}"></i></a></li>
 			{% endfor %}
 			
 		  </ul>
